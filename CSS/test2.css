@@ -1,0 +1,377 @@
+/*
+	Reset stlyes for CSS
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+body
+{
+  background: #FFFFFF;
+}
+.wrapper
+{
+	position: relative;
+	width: 960px;
+	height: 850px;
+	margin: auto;
+	
+	/* IE10 */ 
+	background-image: -ms-linear-gradient(bottom, #969DFF 0%, #EFEFEF 100%);
+
+	/* Mozilla Firefox */ 
+	background-image: -moz-linear-gradient(bottom, #969DFF 0%, #EFEFEF 100%);
+
+	/* Opera */ 
+	background-image: -o-linear-gradient(bottom, #969DFF 0%, #EFEFEF 100%);
+
+	/* Webkit (Safari/Chrome 10) */ 
+	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #969DFF), color-stop(1, #EFEFEF));
+
+	/* Webkit (Chrome 11+) */ 
+	background-image: -webkit-linear-gradient(bottom, #969DFF 0%, #EFEFEF 100%);
+
+	/* Proposed W3C Markup */ 
+	background-image: linear-gradient(bottom, #969DFF 0%, #EFEFEF 100%);
+
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled='true', startColorstr='#969DFF', endColorstr='#EFEFEF');
+}
+header
+{
+	width: 100%;
+	height: 125px;
+	padding-left: -50px;
+}
+nav		
+{
+	width: 100%;
+	height: 1.9em;
+	background-color: #2c336f;
+	border: 2px solid;
+	border-radius: 25px;
+}
+nav ul
+{
+	width: 100%;
+	float: left;
+}
+nav ul li
+{
+ float: left;
+ list-style: none;
+ width: 157px;
+ text-align: center;
+}
+nav ul li a
+{
+  display: block;
+  padding: 9px 20px;
+  text-decoration: none;  
+  color: #EFEFEF ; 
+}
+nav li a:hover
+{
+   color: #FF0000;
+  background-color: #EFEFEF;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  height: 0.8em;
+}
+.subnav
+{
+	display: none;
+	position: absolute;
+}
+footer
+{
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+	width: 100%;
+	border-top-style: solid;
+	border-width: 2px;
+	border-color: #EEFF05;
+	background-color: #969DFF;
+}
+footer ul
+{
+  margin: auto;
+  width: 25px;
+  display: inline;
+}
+footer ul li 
+{
+   margin: auto;
+   list-style: none;
+   width: 15px;
+   text-align: center;
+   display: inline;
+}
+footer ul li a
+{
+  padding: 5px 12px;
+  margin-left: 20px;
+}
+footer p
+{
+  color: #EEFF05;
+}
+.show
+{
+	display: inline-block;
+	width: 150px;
+	height: auto;
+	background-color: #090FFF;
+	text-align: center;
+	border: 2px solid;
+	border-radius: 25px;
+}
+.show li a:hover
+{
+  color: #FF0000;
+  background-color: #EFEFEF ;
+  border-radius-top: 20px;
+  border-radius-bottom: 20px;
+  -webkit-border-radius-top: 20px;
+  -webkit-border-radius-bottom: 20px;
+  -moz-border-radius-top: 20px;
+  -moz-border-radius-bottom: 20px;
+  overflow: hidden;
+} 
+#contactusContent
+{
+	height: 300px;
+	width:  400px;
+	margin: 0 auto;
+	margin-top: 25px;
+}
+#registerContent
+{
+	height: 300px;
+	width: 400px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+#loginContent
+{
+	height: 200px;
+	width: 200px;
+	margin: 0 auto;
+	margin-top: 150px;
+	margin-left: 20em;
+}
+fieldset
+{
+	border: none;
+	margin-top: 20px;
+}
+.foolabel
+{
+	width:8em;
+	text-align:left;
+	display:inline-block;
+	margin-right:1em;
+}
+.formholder input[type="text"]
+{
+	width:8em;
+	text-align:left;
+	display:inline-block;
+	margin-right:1em;
+}
+.formholder
+{
+	list-style:none
+}
+.foolabel2
+{
+	width:1em;
+	text-align:left;
+	display:inline-block;
+	margin-right:6em;
+}
+.textbox
+{
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+textarea
+{
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+	width:100%;	
+	border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	
+}
+#button
+{
+	margin: 0 auto;
+	margin-top: 90px;
+	margin-left: -60px;
+}
+#submitStyle
+{
+	width:200px;
+	height:60px;
+	margin-left: 2em;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	font-size: 24px;
+	Color: #FF0000;
+	/* IE10 */ 
+	background-image: -ms-linear-gradient(bottom, #969DFF 0%, #EFEFEF 100%);
+
+	/* Mozilla Firefox */ 
+	background-image: -moz-linear-gradient(bottom, #969DFF 0%, #EFEFEF 100%);
+
+	/* Opera */ 
+	background-image: -o-linear-gradient(bottom, #969DFF 0%, #EFEFEF 100%);
+
+	/* Webkit (Safari/Chrome 10) */ 
+	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #969DFF), color-stop(1, #EFEFEF));
+
+	/* Webkit (Chrome 11+) */ 
+	background-image: -webkit-linear-gradient(bottom, #969DFF 0%, #EFEFEF 100%);
+
+	/* Proposed W3C Markup */ 
+	background-image: linear-gradient(bottom, #969DFF 0%, #EFEFEF 100%);
+
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled='true', startColorstr='#969DFF', endColorstr='#EFEFEF');
+}
+#aboutContent
+{
+   text-indent: 20px;
+   padding: 40px;
+   margin-top: 30px;
+}
+#aboutContent h2
+{
+  padding-top: 50px;
+  padding-left: 10px;
+}
+#endQuote
+{
+	text-shadow: 5px 5px 5px #FF0000;
+	margin-top: 20px;
+	text-align: center;
+} 
+#aboutlogo
+{
+	width: 120px;
+	height: 80px;
+	margin: auto;
+}
+#ownerresponse
+{
+	text-align: center;
+	margin-bottom: 12px;
+}
+#cplusplusContent img
+{
+	display: block;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+#csharpContent img
+{
+	display: block;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+#cssContent img
+{
+	display: block;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+#htmlContent img
+{
+	display: block;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+#javaContent img
+{
+	display: block;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+#javascriptContent img
+{
+	display: block;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+#phpContent img
+{
+	display: block;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+#sqlContent img
+{
+	display: block;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+#mainContent
+{
+	text-indent: 20px;
+   padding: 40px;
+   margin-top: 30px;
+	
+}
+#languageContent
+{
+	position: absolute;
+	left: 50%;
+	
+	top: 175px;
+	width: 600px;
+}
+#prev
+{
+	position: relative;
+	top: 175px;
+	left: -90px;
+	z-index: 200px;
+}
+#next
+{
+	position: relative;
+	top: 175px;
+	right: -400px;
+	z-index: 200px;
+	
+}
+.slider
+{
+	
+	width: 400px;
+	height: 200px;
+	border: 1px solid #000;
+}
